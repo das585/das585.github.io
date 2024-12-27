@@ -7,6 +7,14 @@
   --fg: #bbb; /* Background */
   --space-sm: 1em; /* Small space between items */
   --space-lg: 4em; /* Large space between items */
+  height: 100%;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  width: 98%;
+  height: 100%;
 }
 
 /**

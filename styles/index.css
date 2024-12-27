@@ -4,8 +4,6 @@
 @import url("./comm.css");
 
 body {
-  color: var(--fg);
-  background-color: var(--bg);
   display: flex;
   flex-direction: column;
 }

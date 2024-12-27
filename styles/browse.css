@@ -1,0 +1,36 @@
+@import url("comm.css");
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#hist {
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+  width: 98%;
+  align-self: center;
+  overflow-y: auto;
+  border: solid var(--fg) 2px;
+  border-radius: 6px;
+}
+
+.card {
+  border: solid var(--fg) 2px;
+  border-radius: 4px;
+  margin: var(--space-lg);
+  margin-top: var(--space-sm);
+  margin-bottom: var(--space-sm);
+  padding: var(--space-sm);
+  padding-top: 0;
+  width: 40%;
+  max-width: 40%;
+  left: 50%;
+  transform: translate(50%);
+}
+
+.ttl {
+  align-self: flex-start;
+  padding: 0;
+  margin: 0;
+}
