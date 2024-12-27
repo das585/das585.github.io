@@ -1,0 +1,47 @@
+/**
+ * Contains common styles to be used across the site. Primarily some
+ * variable declarations with commonly used items.
+ */
+:root {
+  --bg: #222; /* Foreground */
+  --fg: #bbb; /* Background */
+  --space-sm: 1em; /* Small space between items */
+  --space-lg: 4em; /* Large space between items */
+}
+
+/**
+ * Navigation bar and items within
+ */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: 0.5em;
+  padding-left: 0;
+  padding-right: var(--space-lg);
+}
+.navitem {
+  display: inline-block;
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+}
+
+/**
+ * Separator, a thin line that spans the width of its container.
+ * Space between the separator and above and below items
+ */
+.hsep {
+  border-top: solid var(--fg) 2px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.vsep {
+  display: inline-block;
+  border-left: solid var(--fg) 2px;
+  margin-left: var(--space-sm);
+  margin-right: var(--space-sm);
+  width: 2px;
+  height: auto;
+}

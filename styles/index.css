@@ -1,0 +1,37 @@
+/**
+ * Companion style to index.html
+ */
+@import url("./comm.css");
+
+body {
+  color: var(--fg);
+  background-color: var(--bg);
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  align-self: center;
+  margin: 0;
+}
+
+h4 {
+  align-self: center;
+  margin: 0;
+}
+
+#david {
+  align-self: flex-start;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#about,
+#links {
+  flex-basis: 48%;
+}
