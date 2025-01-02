@@ -1,0 +1,16 @@
+@import url("./comm.css");
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-ttl {
+    float: left;
+}
+
+.post-body {
+    align-content: flex-start;
+    word-wrap: break-word;
+    white-space: pre-line;
+}

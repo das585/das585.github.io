@@ -19,3 +19,6 @@ Gemfile.lock
 
 # Files used for writing the articles and such
 *.tmp
+
+#vscode workspace stuff
+.vscode/*

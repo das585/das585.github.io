@@ -4,17 +4,27 @@
  */
 :root {
   --bg: #222; /* Foreground */
-  --fg: #bbb; /* Background */
+  --fg: #efefef; /* Background, slight off-white */
   --space-sm: 1em; /* Small space between items */
   --space-lg: 4em; /* Large space between items */
   height: 100%;
 }
 
 body {
+  font-family: 'Georgia' 'Times New Roman' Serif;
+  font-size: 12pt;
   background-color: var(--bg);
   color: var(--fg);
   width: 98%;
   height: 100%;
+}
+
+/**
+ * Just want to specify the font format, so that it's explicit
+ */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12pt;
 }
 
 /**
