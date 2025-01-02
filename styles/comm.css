@@ -28,6 +28,16 @@ code {
 }
 
 /**
+ * Styled to make sure that they stay visible within dark mode
+ */
+a {
+  color: #00aaee;
+}
+a:visited {
+  color: #cc66ff;
+}
+
+/**
  * Navigation bar and items within
  */
 .navbar {
